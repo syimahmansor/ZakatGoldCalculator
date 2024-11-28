@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFF6E5">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Welcome To Zakat Calculator App"
+        android:textColor="#FF69B4"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Calculator"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+    android:backgroundTint="#FFB6C1"
+    android:elevation="4dp"
+    android:fontFamily="@font/poppins_regular"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/button_background" />
+</LinearLayout>
